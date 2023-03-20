@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #192a56;
+}
+header {
+    background-color: white;
+    padding: 20px;
+}
+header > h1 { 
+    text-align: center;
+    font-size: 50px;
+    font-family: Itim, cursive;
+}
+.scoreBoard { 
+    border: 4px solid white;
+    width: 200px;
+    margin: 20px auto;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Roboto Mono;
+}
+.score {
+    background:#e84118 ;
+    padding: 3px 10px;
+    font-family: Roboto Mono;
+    color: white;
+    font-size: 16px;
+}
+#user-label {
+    position: absolute;
+    top: 15px;
+    left: -30px;
+}
+#comp-label {
+    position: absolute;
+    top: 15px;
+    left: 165px;
+}
+.result {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.choices {
+    text-align: center;
+    
+}
+.choice {
+    display: inline-block;
+}
+.choice:hover {
+    cursor: pointer;
+}
+.active-mess {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Roboto Mono;
+    color: white;
+}
+.restart {
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-family: Pacifico;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 4px;
+}
+.restart:hover {
+    cursor: pointer;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.restart-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.robot{
+    width: 500px;
+    height: 400px;
+    
+}
+.robotImg {
+    position: absolute;
+    top: 350px;
+    right: 20px;
+}
